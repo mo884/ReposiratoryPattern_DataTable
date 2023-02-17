@@ -1,0 +1,12 @@
+﻿@model IEnumerable<BookVM>
+<table>
+    <tr>
+        <td>Name</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Title</td>
+        </tr>
+    }
+</table>
